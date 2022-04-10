@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahyog-Details</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <link rel="shortcut icon" href="sahyog_logo.jpeg" type="image/jpeg">
+</head>
+<body>
+   <!---------------------------------->
+   <nav class="index_nav">
+    <div class="nav_wrapper">
+        <div class="sahyog_pic"></div>Sahyog By <span>CODERSQUAD</span> 
+        <div id="menu_show" class="menu_btn_pic" onclick="menu_show()"></div>
+        <div id="menu_hide" class="menu_btn_pic" onclick="menu_hide()"></div>
+    </div>
+    <div class="nav_wrapper" id="nav_wrapper_links">
+        <a href="index.html"><li>Home</li></a>
+        <a href="about.html"><li>About</li></a>
+        <a href="hospital_location.html"><li>Hospitals</li></a>
+        <a href="doctor_location.html"><li>Doctors</li></a>
+        <a href="team_details.html"><li>Our Team</li></a>
+    </div>
+
+</nav>
+<!---------------------------------->
+   <section class="slide2_sec1">
+       <div class="slide2_bg"></div>
+       <div class="slide2_sec1_wrapper">
+           <div class="slide2_sec1_sub_wrapper1">
+               <div class="subwrapper1_div1">
+                   <span>Accident/Emergency</span>
+                   <div class="drop_down_arrow" id="drop_down_arrow1_hide_id" onclick="slide2down_arrow1_hide()"></div>
+                   <div class="drop_down_arrow" id="drop_down_arrow1_show_id" onclick="slide2down_arrow1_show()"></div>
+                </div>
+                <!---------->
+               <div class="subwrapper1_div2" id="slide2_subwrapper1_div2">
+                   <a href="suggestions.html"><li>Minor Issue</li></a>
+                   <a href="hospital_location.html"><li>Major Issue</li></a>
+               </div>
+             
+           </div>
+           <!-----------wrapper 2----------->
+           <div class="slide2_sec1_sub_wrapper2">
+            <div class="subwrapper2_div1">
+                <span>Get Details</span>
+                <div class="drop_down_arrow" id="drop_down_arrow2_show_id" onclick="slide2down_arrow2_show()"></div>
+                <div class="drop_down_arrow" id="drop_down_arrow2_hide_id" onclick="slide2down_arrow2_hide()"></div>
+             </div>
+             <!---------->
+            <div class="subwrapper2_div2" id="slide2_subwrapper2_div2">
+                <a href="hospital_location.html"><li>Hospitals</li></a>
+                <a href="doctor_location.html"><li>Doctors</li></a>
+                <!--<a href=""><li>Facilities</li></a>-->
+                <a href="suggestions.html"><li>Suggestions</li></a>
+            </div>
+
+           </div>
+       </div>
+   </section>
+   <!------------------------------------->
+    <footer class="index_footer">
+        <span>Email: </span>abcdef@xyz.com <br><br>
+        <span>Ph No.: </span>0123456789<br><br><br>
+        Designed & Developed By Codersquad<br>
+        copyright@codersquad
+    </footer>
+</body>
+</html>
